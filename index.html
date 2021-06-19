@@ -1,0 +1,496 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Calculate HS Marks</title>
+    </head>
+  <body>
+    <section id="mp" class="text-gray-600 body-font">
+      <div class="container px-5 py-10 mx-auto">
+        <h1 style="justify-content: center;" class="flex text-center flex-row sm:flex-col justify-self-center text-gray-900 text-lg font-bold mx-auto title-font">CALCULATE HS MARKS , ACCORDING TO BOARDS EVALUATION PROCESS</h1>
+        <h2 class="text-center">(Enter all the details correctly to get correct predictions)</h2>
+        <div class="p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 sm:mb-2">
+          <h2
+            class="text-gray-900 text-lg font-bold underline mx-auto title-font"
+          >
+            Enter Madhyamik Marks
+          </h2>
+        </div>
+        <div
+          class="
+            flex
+            lg:w-2/3
+            w-full
+            sm:flex-row
+            flex-col
+            mx-auto
+            px-8
+            sm:space-x-4 sm:space-y-0
+            space-y-4
+            sm:px-0
+            items-end
+          "
+        >
+          <div class="relative flex-grow w-full">
+            <label for="mp-beng" class="leading-7 text-sm text-gray-600"
+              >Beng Marks:
+            </label>
+            <input
+              type="text"
+              name="mp-beng"
+              id="mp-beng"
+              class="
+                w-full
+                bg-gray-100 bg-opacity-50
+                rounded
+                border border-gray-300
+                focus:border-green-500
+                focus:bg-transparent
+                focus:ring-2 focus:ring-green-200
+                text-base
+                outline-none
+                text-gray-700
+                py-1
+                px-3
+                leading-8
+                transition-colors
+                duration-200
+                ease-in-out
+              "
+            />
+          </div>
+          <div class="relative flex-grow w-full">
+            <label for="mp-eng" class="leading-7 text-sm text-gray-600"
+              >Eng Marks:
+            </label>
+            <input
+              type="text"
+              name="mp-eng"
+              id="mp-eng"
+              class="
+                w-full
+                bg-gray-100 bg-opacity-50
+                rounded
+                border border-gray-300
+                focus:border-green-500
+                focus:bg-transparent
+                focus:ring-2 focus:ring-green-200
+                text-base
+                outline-none
+                text-gray-700
+                py-1
+                px-3
+                leading-8
+                transition-colors
+                duration-200
+                ease-in-out
+              "
+            />
+          </div>
+          <div class="relative flex-grow w-full">
+            <label for="mp-math" class="leading-7 text-sm text-gray-600"
+              >Math Marks:
+            </label>
+            <input
+              type="text"
+              name="mp-math"
+              id="mp-math"
+              class="
+                w-full
+                bg-gray-100 bg-opacity-50
+                rounded
+                border border-gray-300
+                focus:border-green-500
+                focus:bg-transparent
+                focus:ring-2 focus:ring-green-200
+                text-base
+                outline-none
+                text-gray-700
+                py-1
+                px-3
+                leading-8
+                transition-colors
+                duration-200
+                ease-in-out
+              "
+            />
+          </div>
+          <div class="relative flex-grow w-full">
+            <label for="mp-physc" class="leading-7 text-sm text-gray-600"
+              >Physical Science Marks:
+            </label>
+            <input
+              type="text"
+              name="mp-physc"
+              id="mp-physc"
+              class="
+                w-full
+                bg-gray-100 bg-opacity-50
+                rounded
+                border border-gray-300
+                focus:border-green-500
+                focus:bg-transparent
+                focus:ring-2 focus:ring-green-200
+                text-base
+                outline-none
+                text-gray-700
+                py-1
+                px-3
+                leading-8
+                transition-colors
+                duration-200
+                ease-in-out
+              "
+            />
+          </div>
+          <div class="relative flex-grow w-full">
+            <label for="mp-lsc" class="leading-7 text-sm text-gray-600"
+              >Life Science Marks:
+            </label>
+            <input
+              type="text"
+              name="mp-lsc"
+              id="mp-lsc"
+              class="
+                w-full
+                bg-gray-100 bg-opacity-50
+                rounded
+                border border-gray-300
+                focus:border-green-500
+                focus:bg-transparent
+                focus:ring-2 focus:ring-green-200
+                text-base
+                outline-none
+                text-gray-700
+                py-1
+                px-3
+                leading-8
+                transition-colors
+                duration-200
+                ease-in-out
+              "
+            />
+          </div>
+          <div class="relative flex-grow w-full">
+            <label for="mp-hist" class="leading-7 text-sm text-gray-600"
+              >History Marks:
+            </label>
+            <input
+              type="text"
+              name="mp-hist"
+              id="mp-hist"
+              class="
+                w-full
+                bg-gray-100 bg-opacity-50
+                rounded
+                border border-gray-300
+                focus:border-green-500
+                focus:bg-transparent
+                focus:ring-2 focus:ring-green-200
+                text-base
+                outline-none
+                text-gray-700
+                py-1
+                px-3
+                leading-8
+                transition-colors
+                duration-200
+                ease-in-out
+              "
+            />
+          </div>
+          <div class="relative flex-grow w-full">
+            <label for="mp-geo" class="leading-7 text-sm text-gray-600"
+              >Geography Marks:
+            </label>
+            <input
+              type="text"
+              name="mp-geo"
+              id="mp-geo"
+              class="
+                w-full
+                bg-gray-100 bg-opacity-50
+                rounded
+                border border-gray-300
+                focus:border-green-500
+                focus:bg-transparent
+                focus:ring-2 focus:ring-green-200
+                text-base
+                outline-none
+                text-gray-700
+                py-1
+                px-3
+                leading-8
+                transition-colors
+                duration-200
+                ease-in-out
+              "
+            />
+          </div>
+        </div>
+
+          <!-- <p id="mp-error" class="text-red-600
+            text-lg
+            flex
+            w-half
+            sm:flex-row
+            flex-col
+            mx-auto
+            px-8
+            mt-1">ENTER ALL MARKS... BEFORE CONTINUE</p> -->
+        <button
+          id="generateTopFour"
+          class="
+            text-white
+            bg-green-500
+            border-0
+            py-2
+            px-8
+            focus:outline-none
+            hover:bg-green-600
+            rounded
+            text-lg
+            flex
+            w-half
+            sm:flex-row
+            flex-col
+            mx-auto
+            px-8
+            mt-5
+          "
+        >
+          Click to Continue ...
+        </button>
+    </section>
+    <section id="eleven" class="text-gray-600 body-font relative">
+    <div class="container px-5 py-10 mx-auto">
+
+    <div class="lg:w-1/2 md:w-2/3 mx-auto">
+      <h2 style="justify-content: center"
+      class="flex
+            sm:flex-col
+
+            text-gray-900 text-lg font-bold underline mx-auto title-font mb-1"
+          >
+          Enter Class 11 Marks</h2><br>
+      <div class="flex flex-wrap -m-2">
+        <div class="pl-5 pt-2 relative flex-grow w-full">
+            <label class="leading-7 text-sm text-gray-900 underline"
+              >Enter Bengali Marks: (out of 80)
+            </label>
+          </div>
+        <div class="p-2 w-1/2">
+          <div class="relative">
+            <label class="leading-7 text-sm text-gray-600">Subject Name</label>
+            <input disabled type="text" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" value="BNGA">
+          </div>
+        </div>
+        <div class="p-2 w-1/2">
+          <div class="relative">
+            <label for="beng11" class="leading-7 text-sm text-gray-600">Marks</label>
+            <input type="text" id="beng11" name="beng11" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+        </div><br>
+        <div class="pl-5 pt-2 relative flex-grow w-full">
+            <label class="leading-7 text-sm text-gray-900 underline"
+              >Enter English Marks: (out of 80)
+            </label>
+          </div>
+        <div class="p-2 w-1/2">
+          <div class="relative">
+            <label class="leading-7 text-sm text-gray-600">Subject Name</label>
+            <input disabled type="text" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" value="ENGB">
+          </div>
+        </div>
+        <div class="p-2 w-1/2">
+          <div class="relative">
+            <label for="eng11" class="leading-7 text-sm text-gray-600">Marks</label>
+            <input type="email" id="eng11" name="eng11" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+        </div><br>
+        <div class="pl-5 pt-2 relative flex-grow w-full">
+            <label class="leading-7 text-sm text-gray-900 underline"
+              >Enter only thoery marks: <span id="outof1">Choose Subject</span>
+            </label>
+          </div>
+        <div class="p-2 w-1/2">
+          <div class="relative">
+            <label for="elec1" class="leading-7 text-sm text-gray-600">Subject Name</label>
+            <!-- <input disabled type="text" id="name" name="name"  value="ENGB"> -->
+            <select onchange="elec1onChange()" name="elec1" id="elec1" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              <option selected value="choose Subject">Choose Subject</option>
+            </select>
+          </div>
+        </div>
+        <div class="p-2 w-1/2">
+          <div class="relative">
+            <label for="mark1" class="leading-7 text-sm text-gray-600">Marks</label>
+            <input type="text" id="mark1" name="mark1" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+        </div><br>
+        <div class="pl-5 pt-2 relative flex-grow w-full">
+            <label class="leading-7 text-sm text-gray-900 underline"
+              >Enter only thoery marks: <span id="outof2">Choose Subject</span>
+            </label>
+          </div>
+        <div class="p-2 w-1/2">
+          <div class="relative">
+            <label for="elec2" class="leading-7 text-sm text-gray-600">Subject Name</label>
+            <!-- <input disabled type="text" id="name" name="name"  value="ENGB"> -->
+            <select onchange="elec2onChange()" name="elec2" id="elec2" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              <option selected value="choose Subject">Choose Subject</option>
+            </select>
+          </div>
+        </div>
+        <div class="p-2 w-1/2">
+          <div class="relative">
+            <label for="mark2" class="leading-7 text-sm text-gray-600">Marks</label>
+            <input type="text" id="mark2" name="mark2" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+        </div><br>
+        <div class="pl-5 pt-2 relative flex-grow w-full">
+            <label class="leading-7 text-sm text-gray-900 underline"
+              >Enter only thoery marks: <span id="outof3">Choose Subject</span>
+            </label>
+          </div>
+        <div class="p-2 w-1/2">
+          <div class="relative">
+            <label for="elec3" class="leading-7 text-sm text-gray-600">Subject Name</label>
+            <!-- <input disabled type="text" id="name" name="name"  value="ENGB"> -->
+            <select onchange="elec3onChange()" name="elec3" id="elec3" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              <option selected value="choose Subject">Choose Subject</option>
+            </select>
+          </div>
+        </div>
+        <div class="p-2 w-1/2">
+          <div class="relative">
+            <label for="mark3" class="leading-7 text-sm text-gray-600">Marks</label>
+            <input type="text" id="mark3" name="mark3" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+        </div><br>
+        <div class="pl-5 pt-2 relative flex-grow w-full">
+            <label class="leading-7 text-sm text-gray-900 underline"
+              >Enter only thoery marks: <span id="outof4">Choose Subject</span>
+            </label>
+          </div>
+        <div class="p-2 w-1/2">
+          <div class="relative">
+            <label for="elec4" class="leading-7 text-sm text-gray-600">Subject Name</label>
+            <!-- <input disabled type="text" id="name" name="name"  value="ENGB"> -->
+            <select onchange="elec4onChange()" name="elec4" id="elec4" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-2 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              <option selected value="choose Subject">Choose Subject</option>
+            </select>
+          </div>
+        </div>
+        <div class="p-2 w-1/2">
+          <div class="relative">
+            <label for="mark4" class="leading-7 text-sm text-gray-600">Marks</label>
+            <input type="text" id="mark4" name="mark4" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+        </div>
+
+
+        <div class="p-2 w-full">
+          <button id="calculateFinal" class="flex mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg">Calculate Marks!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="final" class="text-gray-600 body-font">
+  <div class="container px-5 py-20 mx-auto">
+    <div class="flex flex-col text-center w-full mb-10">
+      <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Tentative Result</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">This result is shown assuming you are getting full marks in Project/Practical</p>
+    </div>
+    <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+      <table class="table-auto w-full text-left whitespace-no-wrap">
+        <thead>
+          <tr>
+            <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl">Subject Name</th>
+            <th class="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100">Total Marks</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="px-4 py-3 text-lg text-gray-900">Bengali</td>
+            <td class="px-4 py-3 text-lg text-gray-900"><span id="bengFinal"></span> <span id="bengSp"></span></td>
+
+          </tr>
+          <tr>
+            <td class="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">English</td>
+            <td class="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900"><span id="engFinal"></span> <span id="engSp"></span></td>
+
+          </tr>
+          <tr>
+            <td class="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900"><span id="subj1"></span></td>
+            <td class="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900"><span id="mark1Final"></span> <span id="mark1Sp"></td>
+
+          </tr>
+          <tr>
+            <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900"><span id="subj2"></span></td>
+            <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900"><span id="mark2Final"></span> <span id="mark2Sp"></td>
+
+          </tr>
+          <tr>
+            <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900"><span id="subj3"></span></td>
+            <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900"><span id="mark3Final"></span> <span id="mark3Sp"></td>
+
+          </tr>
+          <tr>
+            <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900"><span id="subj4"></span></td>
+            <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900"><span id="mark4Final"></span> <span id="mark4Sp"></td>
+
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="flex flex-col text-center w-full mt-6">
+      <h1 class="sm:text-4xl text-xl font-medium title-font mb-2 text-gray-900">Best of Luck !</h1>
+     </div>
+  </div>
+</section>
+<footer class="text-gray-600 body-font">
+
+  <div class="bg-gray-100">
+    <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+
+      <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2021 : Made with ❤️ by Tousif —
+        <a href="https://github.com/geektousif" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@geektousif</a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a href="https://facebook.com/tousif.fy" class="text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a href="https://twitter.com/syedmdtousif4" class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+          </svg>
+        </a>
+        <a href="https://instagram.com/syedmdtousif4" class="ml-3 text-gray-500">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a href="https://linkedin.com/in/syed-md-tousif-460946151/" class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </div>
+</footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
